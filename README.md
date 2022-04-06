@@ -18,8 +18,13 @@ https://user-images.githubusercontent.com/91828519/162007703-dddc2c75-ebb1-46f0-
 4. Feature Extraction
 5. Classification of the Tumor
 
-![flowchart](https://user-images.githubusercontent.com/91828519/162007032-8cb3719b-1c06-46a3-8b52-311e10ec4196.png)
-propose block diagram 
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/91828519/162007032-8cb3719b-1c06-46a3-8b52-311e10ec4196.png">
+</p>
+<p align = "center">
+Fig.1 - propose block diagram 
+</p>
+
 
 # Results
 Contrast adjustment to highlight tumor tissue
