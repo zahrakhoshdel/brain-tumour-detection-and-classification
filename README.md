@@ -24,9 +24,10 @@ propose block diagram
 # Results
 Contrast adjustment to highlight tumor tissue
 
+<figure>
 <img src="https://user-images.githubusercontent.com/91828519/162019373-03b4b0f8-f924-4332-b948-8b3fac5b17aa.png" width="700" alt="contrast-adjustment">
 <figcaption align = "center"><b>Fig2. Adjust the contrast in different ranges</b></figcaption>
-
+</figure>
 
 According to the results of the desired windowing on the images, we see the highlighting of tumor areas and image improvement for better extraction of these areas. As a result, selecting the window in the appropriate range can give a better quality to the output image to perform the desired operations in the next steps.
 
@@ -41,9 +42,9 @@ Morphological operations are performed after Region-based segmentation to improv
 
 # Follow the following steps to run the program:
 >For the first time :
->1. Upload your dataset
->2. Training database
------------
+>a. Upload your dataset
+>b. Training database
+
 1. Run BrainMain.m
 2. Select images from dataset
 3. Observe segmentation and classification results
