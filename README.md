@@ -29,20 +29,31 @@ Fig.1 - propose block diagram
 # Results
 Contrast adjustment to highlight tumor tissue
 
-<figure>
+<p align = "center">
 <img src="https://user-images.githubusercontent.com/91828519/162019373-03b4b0f8-f924-4332-b948-8b3fac5b17aa.png" width="700" alt="contrast-adjustment">
-<figcaption align = "center"><b>Fig2. Adjust the contrast in different ranges</b></figcaption>
-</figure>
+</p>
+<p align = "center">
+Fig2. Adjust the contrast in different ranges 
+</p>
+
 
 According to the results of the desired windowing on the images, we see the highlighting of tumor areas and image improvement for better extraction of these areas. As a result, selecting the window in the appropriate range can give a better quality to the output image to perform the desired operations in the next steps.
 
- <img src="https://user-images.githubusercontent.com/91828519/162024718-c2385b7f-284a-438e-8705-0b207e17b091.png" width="599" alt="result-of-contrast">
-<figcaption align = "center"><b>Fig3. Adjust the contrast in different ranges and its results: a) original image b) Contrast adjustment in the range [0-100] c) in the range [50-150] d)in the range [100-200]</b></figcaption>
+<p align = "center">
+<img src="https://user-images.githubusercontent.com/91828519/162472864-e65faece-7cb5-4350-b28c-652750b7d4e7.png" width="600" alt="result-of-contrast">
+</p>
+<p align = "center">
+Fig3. Adjust the contrast in different ranges and its results: a) original image b) Contrast adjustment in the range [0-100] c) in the range [50-150] d)in the range [100-200]
+</p>
 
 Morphological operations are performed after Region-based segmentation to improve the tumor area and make its border more accurate.
 
-<img width="698" alt="fig4-6" src="https://user-images.githubusercontent.com/91828519/162045441-c44b8a3b-1dd3-4963-8be4-7c404096fca3.png">
-<figcaption align = "center"><b>Fig4.Image segmentation results: a)original image b)Binary image c)Region-based segmentation d)The final area of the tumor in the image</b></figcaption>
+<p align = "center">
+<img src="https://user-images.githubusercontent.com/91828519/162473913-437c353f-20a2-4371-9996-ac8609f2d395.png" width="700" alt="image_segmentation">
+</p>
+<p align = "center">
+Fig4.Image segmentation results: a)original image b)Binary image c)Region-based segmentation d)The final area of the tumor in the image
+</p>
 
 
 # Follow the following steps to run the program:
