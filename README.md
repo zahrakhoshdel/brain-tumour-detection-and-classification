@@ -39,12 +39,11 @@ Fig2. Adjust the contrast in different ranges
 
 According to the results of the desired windowing on the images, we see the highlighting of tumor areas and image improvement for better extraction of these areas. As a result, selecting the window in the appropriate range can give a better quality to the output image to perform the desired operations in the next steps.
 
-<p align = "center">
-<img src="https://user-images.githubusercontent.com/91828519/162472864-e65faece-7cb5-4350-b28c-652750b7d4e7.png" width="600" alt="result-of-contrast">
-</p>
-<p align = "center">
-Fig3. Adjust the contrast in different ranges and its results: a) original image b) Contrast adjustment in the range [0-100] c) in the range [50-150] d)in the range [100-200]
-</p>
+
+<figure class="image">
+  <img src="https://user-images.githubusercontent.com/91828519/162472864-e65faece-7cb5-4350-b28c-652750b7d4e7.png" alt="result-of-contrast">
+  <figcaption>Fig3. Adjust the contrast in different ranges and its results: a) original image b) Contrast adjustment in the range [0-100] c) in the range [50-150] d)in the range [100-200]</figcaption>
+</figure>
 
 Morphological operations are performed after Region-based segmentation to improve the tumor area and make its border more accurate.
 
